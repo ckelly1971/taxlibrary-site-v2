@@ -1,0 +1,23 @@
+local_backend: true
+
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: "resources"
+    label: "Resources"
+    label_singular: "Resource"
+    folder: "content"
+    create: true
+    slug: "{{slug}}"
+    extension: "mdx"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Updated", name: "updated", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
