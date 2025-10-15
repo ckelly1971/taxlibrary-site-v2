@@ -1,4 +1,4 @@
-import { getResource } from '@/lib/mdx';
+import { getResource } from '../../../lib/mdx';
 import Link from 'next/link';
 
 export default async function ResourcePage({ params }: { params: { slug: string } }) {
