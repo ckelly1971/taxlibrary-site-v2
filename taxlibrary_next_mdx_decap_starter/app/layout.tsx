@@ -1,8 +1,7 @@
-import './styles/globals.css';
-import HeaderTop from '@/components/HeaderTop';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-
+import '../styles/globals.css';
+import HeaderTop from '../components/HeaderTop';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 export const metadata = {
   title: 'The Tax Library - Professional UK Tax Information & Resources',
   description: 'Expert UK Tax Information at Your Fingertips',
