@@ -1,4 +1,8 @@
-export default function Page() {
+
+
+export default async function ResourcePage({ params }: any) {
+
+}
   return (<main dangerouslySetInnerHTML={{ __html: `<section class="hero">
             <div class="container">
                 <div class="hero-content">
